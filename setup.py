@@ -30,14 +30,13 @@ license = ascii_bytes_from(thisdir, "LICENSE")
 # installed yet)
 version = re.search(r'__version__ = "([^"]+)"', init_py).group(1)
 
-
 NAME = "python-pptx-fork"
 VERSION = version
-DESCRIPTION = "Generate and manipulate Open XML PowerPoint (.pptx) files"
+DESCRIPTION = "fort python-pptx Generate and manipulate Open XML PowerPoint (.pptx) files"
 KEYWORDS = "powerpoint ppt pptx office open xml"
-AUTHOR = "Steve Canny"
-AUTHOR_EMAIL = "python-pptx@googlegroups.com"
-URL = "http://github.com/scanny/python-pptx"
+AUTHOR = "MEGAZONE SpaceONE Team"
+AUTHOR_EMAIL = "admin@spaceone.dev"
+URL = "http://github.com/spaceone-dev/python-pptx"
 LICENSE = license
 PACKAGES = find_packages(exclude=["tests", "tests.*"])
 PACKAGE_DATA = {"pptx": ["templates/*"]}
@@ -62,15 +61,14 @@ CLASSIFIERS = [
     "Topic :: Software Development :: Libraries",
 ]
 
-LONG_DESCRIPTION = readme + "\n\n" + history
-
+LONG_DESCRIPTION = ''
 
 params = {
     "name": NAME,
     "version": VERSION,
-    "description": DESCRIPTION,
+    # "description": DESCRIPTION,
     "keywords": KEYWORDS,
-    "long_description": LONG_DESCRIPTION,
+    # "long_description": LONG_DESCRIPTION,
     "author": AUTHOR,
     "author_email": AUTHOR_EMAIL,
     "url": URL,

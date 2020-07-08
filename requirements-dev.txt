@@ -1,0 +1,5 @@
+-r requirements.txt
+setuptools
+wheel
+twine
+nose
