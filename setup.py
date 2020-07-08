@@ -31,7 +31,7 @@ license = ascii_bytes_from(thisdir, "LICENSE")
 version = re.search(r'__version__ = "([^"]+)"', init_py).group(1)
 
 
-NAME = "python-pptx"
+NAME = "python-pptx-fork"
 VERSION = version
 DESCRIPTION = "Generate and manipulate Open XML PowerPoint (.pptx) files"
 KEYWORDS = "powerpoint ppt pptx office open xml"
